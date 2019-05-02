@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="borrar"
+        android:id="@+id/borrar"
+        app:showAsAction="never"/>
+    <item
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="add"
+        android:id="@+id/add"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="fav"
+        android:id="@+id/fav"
+        app:showAsAction="always"/>
+</menu>
